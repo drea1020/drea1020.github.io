@@ -5,6 +5,8 @@ body {
 	color: #111111;
 }
 
+a { text-decoration: none; }
+
 .font-bd {
 	font-family: benton-modern-display, serif;
 	font-weight: 400;
