@@ -1,6 +1,7 @@
 body {
 	font-family: "peridot-pe-variable", sans-serif;
 	font-variation-settings: "ital" 0, "wdth" 100, "wght" 400;
+	font-size: 22px; line-height: 32px;
 }
 
 .font-bd {
@@ -19,4 +20,8 @@ body {
 .bg-purple { background-color: #120047 !important; }
 .bg-blue { background-color: #DBEDF9 !important; }
 .text-purple { color: #120047 !important; }
-.text-blue { background-color: #84D0FF !important; }
+.text-blue { color: #84D0FF !important; }
+
+@media screen and (min-width: 992px) {
+	h1 { font-size: 80px; line-height: 92px; }
+}

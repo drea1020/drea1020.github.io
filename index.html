@@ -15,17 +15,17 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav ms-auto">
-						<a class="nav-link text-white" href="#about">About</a>
-						<a class="nav-link text-white" href="#services">Services</a>
-						<a class="nav-link text-white" href="#work">Work</a>
-						<a class="nav-link text-white" href="#contact">Conact</a>
-					</div>
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#services">Services</a></li>
+						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#work">Work</a></li>
+						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#contact">Conact</a></li>
+					</ul>
 				</div>
 			</div>
 		</nav>
 	</header>	
-
+	
 	<!--hero-->
 	<section class="hero bg-purple text-white py-5">
 		<div class="container py-5">
@@ -39,30 +39,59 @@
 	
 	<section class="bg-blue">
 		<div class="container" id="about">
-			<div class="row">
-				<div class="col-12 col-lg-7 mb-5 mb-lg-0">
-					<h2 class="text-purple font-bd-b">Get to Know Me</h2>
+			<div class="row align-items-center">
+				<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+					<h2 class="text-purple font-bd-b mb-4 h1">Get to Know Me</h2>
 					<p class="font-l">I’ve been designing professionally since 2011 when I graduated from The University of North Carolina at Chapel Hill, but I’ve been creating my entire life. I’m passionate about art and design (and bringing those designs to life via code). I’m based in Fort Lauderdale, but I’ve worked with clients across the US to bring their visions to life. </p>
 				</div>
-				<div class="col-12 col-lg-5"><img src="img/squiggle.png" alt="Andrea Golindano" /></div>
+				<div class="col-12 col-lg-5 offset-lg-1"><img src="img/squiggle.png" class="img-fluid" alt="Andrea Golindano" /></div>
 			</div>
 		</div>
-		<div class="container-fluid">
+		<div class="container-fluid" id="services">
 			<div class="row gutters-0 px-lg-5">
 				<div class="col-lg-8 py-5">
-					<h2 class="text-purple font-bd-b">My Services</h2>
+					<h2 class="text-purple font-bd-b text-center">My Services</h2>
 				</div>
 				<div class="col-12">
-					<div class="row">
+					<div class="row text-center">
 						<div class="col-12 col-sm-6 col-lg-3">
-							<div class="border-2 service p-4"></div> 
-							<div class="border-2 service p-4"></div> 
-							<div class="border-2 service p-4"></div> 
-							<div class="border-2 service p-4"></div> 
+							<div class="border-2 service p-4">
+								<h3 class="text-purple">Web Design</h3>
+								<p class="text-sm">From wireframe to completed mockup, I can bring your vision to life. </p>
+							</div> 
+							<div class="border-2 service p-4">
+								<h3 class="text-purple">Web Development</h3>
+								<p class="text-sm">My specialty is in front-end development, so I can build your site from scratch, but I'm also proficient in WordPress.</p>
+							</div> 
+							<div class="border-2 service p-4">
+								<h3 class="text-purple">Graphic Design</h3>
+								<p class="text-sm">Digital and print design. Anything from display ads and emails to brochures and wedding invitations.</p>
+							</div> 
+							<div class="border-2 service p-4">
+								<h3 class="text-purple">Art</h3>
+								<p class="text-sm">I specialize in realism using gouache, but I am also skilled in digital painting and illustration.</p>
+							</div> 
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+	
+	<section class="work py-4">
+		<div class="container" id="#work">
+			<div class="row justify-content-center">
+				<div class="col-10 pb-5">
+					<h2 class="text-purple font-bd-b text-center">Recent Projects</h2>
+					<p>Here is a sampling of some of my recent projects. If you’d like to see more, or have any questions, please <span class="font-sb"><a href="mailto:acgolindano@gmail.com" class="text-purple">get in touch with me</a></span>.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid px-lg-5 work">
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
 		</div>
 	</section>
 	
