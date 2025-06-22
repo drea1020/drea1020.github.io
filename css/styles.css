@@ -1,6 +1,22 @@
 body {
+	font-family: "peridot-pe-variable", sans-serif;
+	font-variation-settings: "ital" 0, "wdth" 100, "wght" 400;
+}
+
+.font-bd {
 	font-family: benton-modern-display, serif;
 	font-weight: 400;
 	font-style: normal;
 }
+.font-bd-b {
+	font-family: benton-modern-display, serif;
+	font-weight: 600;
+	font-style: normal;
+}
+.font-l { font-weight: 300; }
+.font-sb { font-weight: 600; }
 
+.bg-purple { background-color: #120047 !important; }
+.bg-blue { background-color: #DBEDF9 !important; }
+.text-purple { color: #120047 !important; }
+.text-blue { background-color: #84D0FF !important; }
