@@ -1,0 +1,482 @@
+/* CSS Styles for andreagolindano.com */
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: transparent url(../img/img_bg.jpg) top left repeat; 	
+}
+
+/* COMMON */
+.clear {
+	height: 1px;
+	overflow: hidden;
+	clear: both;
+}	
+
+a {
+	outline: none;
+	text-decoration: none;
+	color: #d05188;
+}
+
+a:hover {
+	text-decoration: underline;	
+}
+
+h2 {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;	
+	text-transform: uppercase;
+	font-size: 60px;
+	color: #006aa8;
+	border-bottom: 5px solid #d54e88;
+	padding: 0 0 5px 0;
+	margin: 0 0 30px 0;
+}
+
+h3 {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	font-size: 24px;
+	color: #d05188;
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+}
+
+h4 {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	font-size: 24px;
+	color: #d05188;
+	margin: 0 0 20px 0;
+}
+
+p {
+	font-family: 'Duru Sans', Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #484848;
+	margin: 0 0 20px 0;	
+}
+/* END OF COMMON */	
+
+/* HEADER */
+#header {
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	background-color: #6d6d6d;
+	z-index: 5;
+	top: 0;
+	left: 0;
+}	
+
+/* INNER */
+#header .inner {
+	width: 960px;
+	margin: 0 auto;
+}	
+
+/* NAVIGATION */
+#navigation {
+	float: right;	
+}
+
+#navigation ul {
+	list-style: none;	
+}
+
+#navigation ul li a {
+	font-family: 'Duru Sans', Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	display: block;	
+	padding: 8px 12px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	margin: 8px 0 0 15px;
+}
+
+#navigation ul li a:hover {
+	text-decoration: none;
+	background-color: #5b5858;	
+}	
+
+#navigation ul li {
+	display: inline-block;
+	float: left;	
+}
+/* END OF NAVIGATION */
+
+/* LOGO */
+#logo {
+	height: 148px;
+	width: 139px;
+	margin: 0 0 0 40px;	
+}
+/* END OF LOGO */
+/* END OF INNER */
+/* END OF HEADER */
+
+/* CONTAINER */
+#container {
+	margin: 0 auto 0;
+	width: 960px;
+	padding-top: 140px;
+}
+
+/* PAGE */
+#page {
+	width: 905px;
+	margin: 0 auto;
+}	
+
+/* WELCOME */
+#welcome {
+	margin: 0 auto 0;
+	padding: 50px 0 170px;
+	background: url(../img/img_flower.png) 100% 55% no-repeat;	
+}
+
+#welcome h1 {
+	background: transparent url(../img/img_rule.jpg) scroll 0 50% repeat-x;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 48px;
+	color: #006aa8;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+#welcome h1 span {
+	background: url(../img/img_bg.jpg) scroll 0 2px repeat-x;	
+	padding: 0 16px;
+}
+
+#welcome p {
+	width: 660px;
+	font-family: 'Duru Sans', Arial, Helvetica, sans-serif;	
+	font-size: 18px;
+	line-height: 30px;
+	color: #484848;
+	margin: 0 auto 30px;
+}
+
+#welcome p strong {
+	font-family: 'Duru Sans', Arial, Helvetica, sans-serif;	
+	font-size: 22px;
+	color: #d54e88;
+	font-weight: normal;
+}
+/* END OF WELCOME */
+
+/* ABOUT */
+#about {
+	margin: 0 auto;
+	padding: 30px 0 140px 0;	
+}
+
+#about .bio {
+	float: left;
+	margin: 0 0 30px 0;	
+}
+
+#about .copy {
+	float: left;
+	width: 568px;
+	margin: 0 0 0 30px;	
+}
+
+#about .bucket {
+	width: 438px;
+	float: left;	
+}
+
+#about .bucket.first {
+	margin: 0 29px 0 0;
+}
+
+#about .bucket h4 {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	margin: 0 0 20px 0;
+	display: block;
+	line-height: 35px;
+	font-weight: normal;
+	text-align: center;
+	background-color: #d05188;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+#about .bucket p {
+	color: #006aa8;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	font-size: 22px;
+	line-height: 28px;
+	margin: 0;
+}
+
+#about .bucket p span {
+	color: #d05188;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 0 5px 0 20px;	
+}
+/* END OF ABOUT */
+
+/* PORTFOLIO */
+#portfolio {
+	padding: 30px 0 140px 0;	
+	margin: 0 auto;
+}
+
+#portfolio h3 {
+	margin: 0 0 40px 0;	
+}
+
+#portfolio .bucket {
+	width: 206px;
+	height: 185px;
+	background-color: #cdcdcd;
+	float: left;
+	margin: 0 25px 25px 0;
+	position: relative;
+}
+
+#portfolio .bucket .overlay {
+	position: absolute;
+	height: 120px;
+	width: 166px;
+	background: url(../img/img_blue-overlay.png) scroll 0 0 repeat;
+	top: 0;
+	left: 0;
+	display: none;
+	padding: 65px 20px 0;	
+}
+
+#portfolio .bucket .overlay a, #portfolio .bucket .overlay a:hover {
+	text-decoration: none;	
+}
+
+#portfolio .bucket .overlay h5 {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+#portfolio .bucket .overlay p {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 0;
+}
+
+#portfolio .bucket .overlay p em {
+	font-size: 12px;
+}
+
+#portfolio .bucket.last {
+	margin: 0 0 25px 0;	
+}
+
+#portfolio .bucket:hover {
+	background: url(../img/img_blue-overlay.png) top left repeat;	
+}
+/* END OF PORTFOLIO */
+
+/* CONTACT */
+#contact {
+	margin: 0 auto;
+	padding: 30px 0 60px 0;	
+}
+
+/* FORM */
+#contact .form {
+	float: left;
+	width: 435px;
+}	
+
+#contact form label {
+	font-family: 'Duru Sans', Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	color: #5b5858;	
+}
+
+#contact form input, #contact form textarea {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	color: #006aa8;
+	font-size: 15px;	
+	border: none;
+	padding: 5px 7px;
+	width: 346px;
+	margin: 0 0 0 7px;
+}
+
+#contact form table tr td {
+	padding: 5px 0;	
+}
+
+#contact form input#submit {
+	width: 95px;
+	padding: 7px 0;
+	background-color: #006aa8;
+	font-family: 'Duru Sans', Arial, Helvetica, Sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	cursor: pointer;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;	
+}
+
+#contact form input#submit:hover {
+	background-color: #d05188;	
+}
+
+.thanks {
+	width: 435px;	
+}
+
+.thanks h5 {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Sans-serif;
+	font-size: 22px;
+	color: #006aa8;
+	font-style: italic;
+	margin: 0 0 20px 0;
+}
+/* END OF FORM */
+
+/* MORE */
+.more {
+	float: left;
+	margin: 0 0 0 70px;	
+}
+
+.more a span {
+	display: inline-block;
+	height: 50px;
+	width: 50px;	
+	margin: 0 10px 15px 0;
+}
+
+.more a.facebook span {
+	background: url(../img/icon_facebook.png) top left no-repeat;
+}
+
+.more a.facebook span:hover {
+	background: url(../img/icon_facebook.png) bottom left no-repeat;
+}
+
+.more a.twitter span {
+	background: url(../img/icon_twitter.png) top left no-repeat;
+}
+
+.more a.twitter span:hover {
+	background: url(../img/icon_twitter.png) bottom left no-repeat;
+}
+
+.more a.linkedin span {
+	background: url(../img/icon_linkedin.png) top left no-repeat;
+}
+
+.more a.linkedin span:hover {
+	background: url(../img/icon_linkedin.png) bottom left no-repeat;
+}
+
+.more a.email span {
+	background: url(../img/icon_email.png) top left no-repeat;
+}
+
+.more a.email span:hover {
+	background: url(../img/icon_email.png) bottom left no-repeat;
+}	
+
+.more ul {
+	list-style: none;	
+}
+
+.more ul li {
+	font-family: 'Duru Sans', Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	color: #d05188;
+	line-height: 18px;
+	padding: 0 0 6px 0;
+}
+
+.more ul li a {
+	color: #006aa8;	
+	font-size: 15px;
+}
+/* END OF MORE */
+/* END OF CONTACT */
+/* END OF PAGE */
+/* END OF CONTAINER */
+
+/* FOOTER */
+.border {
+	height: 12px;
+	width: 100%;
+	background: url(../img/img_footer-bg.png) scroll 0 0 repeat-x; 	
+}
+
+#footer {
+	width: 100%;
+	background-color: #006AA8;	
+	height: 185px;
+}
+
+#footer .inner {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+/* INSTAGRAM WIDGET */
+.insta {
+	float: right;
+	margin: 35px 30px 0 0;
+}
+
+.insta iframe {
+	padding: 8px 0 0 8px;
+	background-color: #018cdd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.insta p {
+	text-align: right;
+	margin: 5px 0 0 0;
+}
+
+.insta a {
+	color: #ffffff;	
+}
+/* END OF INSTAGRAM WIDGET */
+
+/* COPYRIGHT */
+.copyright {
+	float: left;	
+	margin: 60px 0 0 30px;
+}
+
+.copyright p {
+	color: #ffffff;
+	font-size: 12px;
+	float: left;
+	display: block;
+}
+
+.copyright img {
+	float: left;
+	margin: -4px 20px 0 0;	
+}
+/* END OF COPYRIGHT */
+/* END OF FOOTER */

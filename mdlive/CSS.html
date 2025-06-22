@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Assessment</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+/**
+ * Task:
+ * Center the below text on the page when scrolled to the top. The text must remain centered regardless of browser size.
+ * 
+ * No modifications to the HTML will be necessary to complete this task
+ */
+	html, body {
+		height: 100%;
+	}
+	#center-container {
+		height: 100%;
+		width: 100%;
+	}
+	#center-container p {
+		position: absolute;
+		text-align: center;
+		top: 50%;
+        left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+</style>
+</head>
+<body>
+<div id="center-container">
+	<p>Your task is to center this text on the page when at the top<br/>
+		and for it to remain centered regardless of browser size.</p>
+</div>
+<hr />
+<h2>This text should be visualable on scroll</h2>
+
+</body>
+</html>
