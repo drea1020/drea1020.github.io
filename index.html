@@ -10,18 +10,24 @@
 	<header class="mainHead position-absolute">
 		<nav class="navbar navbar-expand-lg text-white">
 			<div class="container-fluid px-lg-4">
-				<a class="navbar-brand" href="#"><img src="img/logo.svg" height="48" alt="Logo" /></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#about">About</a></li>
-						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#services">Services</a></li>
-						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#work">Work</a></li>
-						<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#contact">Conact</a></li>
-					</ul>
-				</div>
+				<div class="row justify-content-lg-between">
+					<div class="col-8 col-lg-4">
+						<a class="navbar-brand" href="#"><img src="img/logo.svg" height="48" alt="Logo" /></a>
+					</div>
+					<div class="col-4 col-lg-8">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+								<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#about">About</a></li>
+								<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#services">Services</a></li>
+								<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#work">Work</a></li>
+								<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#contact">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>				
 			</div>
 		</nav>
 	</header>	
@@ -48,26 +54,32 @@
 			</div>
 		</div>
 		<div class="container-fluid" id="services">
-			<div class="row gutters-0 px-lg-5">
+			<div class="row gutters-0 px-lg-5 justify-content-center">
 				<div class="col-lg-8 py-5">
 					<h2 class="text-purple font-bd-b text-center">My Services</h2>
 				</div>
 				<div class="col-12">
 					<div class="row text-center">
 						<div class="col-12 col-sm-6 col-lg-3">
-							<div class="border-2 service p-4">
+							<div class="border service p-4">
 								<h3 class="text-purple">Web Design</h3>
 								<p class="text-sm">From wireframe to completed mockup, I can bring your vision to life. </p>
 							</div> 
-							<div class="border-2 service p-4">
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="border service p-4">
 								<h3 class="text-purple">Web Development</h3>
 								<p class="text-sm">My specialty is in front-end development, so I can build your site from scratch, but I'm also proficient in WordPress.</p>
 							</div> 
-							<div class="border-2 service p-4">
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="border service p-4">
 								<h3 class="text-purple">Graphic Design</h3>
 								<p class="text-sm">Digital and print design. Anything from display ads and emails to brochures and wedding invitations.</p>
 							</div> 
-							<div class="border-2 service p-4">
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="border service p-4">
 								<h3 class="text-purple">Art</h3>
 								<p class="text-sm">I specialize in realism using gouache, but I am also skilled in digital painting and illustration.</p>
 							</div> 
@@ -81,7 +93,7 @@
 	<section class="work py-4">
 		<div class="container" id="#work">
 			<div class="row justify-content-center">
-				<div class="col-10 pb-5">
+				<div class="col-lg-10 pb-5">
 					<h2 class="text-purple font-bd-b text-center">Recent Projects</h2>
 					<p>Here is a sampling of some of my recent projects. If you’d like to see more, or have any questions, please <span class="font-sb"><a href="mailto:acgolindano@gmail.com" class="text-purple">get in touch with me</a></span>.</p>
 				</div>
@@ -94,6 +106,21 @@
 			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
 		</div>
 	</section>
+	
+	<section class="bg-purple">
+		<div class="container" id="contact">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<h2 class="text-blue font-bd-b text-center">How to Reach Me</h2>
+					<p>If you think I’m a good fit for your project, feel free to send me an <a href="mailto:acgolindano@gmail.com" class="text-blue">email</a>, or reach out to me via <a href="https://www.linkedin.com/in/andreagolindano/" target="_blank" class="text-purple">LinkedIn</a>. I look forward to hearing from you!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="bg-purple border-top">
+		<p class="text-center text-sm">&copy; 2025 Andrea Golindano. All rights reserved.</p>
+	</footer>
 	
 	
 	<!--footer-->
