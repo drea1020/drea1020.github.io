@@ -26,7 +26,7 @@ a { text-decoration: none; }
 .text-blue { color: #84D0FF !important; }
 .text-sm { font-size: 18px !important; line-height: 26px; }
 
-.service { border: 2px solid #84D0FF !important; border-radius: 20px; }
+.service { border: 2px solid #120047 !important; border-radius: 20px; }
 
 @media screen and (min-width: 992px) {
 	body { font-size: 22px; line-height: 36px; }
