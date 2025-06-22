@@ -11,12 +11,12 @@
 	<!--nav-->
 	<header class="mainHead position-absolute" style="width: 100%; top:0; left:0; right:0;">
 		<nav class="navbar navbar-expand-lg text-white p-0">
-			<div class="container-fluid px-lg-4 pt-3">
-					<a class="navbar-brand" href="/"><img src="img/logo.svg" height="48" alt="Logo" /></a>
+			<div class="container-fluid px-0 px-lg-4 pt-3">
+					<a class="navbar-brand ps-3 ps-lg-0" href="/"><img src="img/logo.svg" height="48" alt="Logo" /></a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+					<div class="collapse navbar-collapse ms-auto bg-purple" id="navbarNavAltMarkup">
 						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#about">About</a></li>
 							<li class="nav-item"><a class="nav-link text-white px-2 px-xxl-3" href="#services">Services</a></li>
@@ -32,7 +32,7 @@
 	<section class="hero bg-purple text-white py-5">
 		<div class="container py-5 my-lg-5">
 			<div class="row align-items-center py-5">
-				<div class="col-12 py-5">
+				<div class="col-12 py-lg-5 px-4 px-lg-3">
 					<h1 class="font-bd-b">Hi, I'm <span class="text-blue">Andrea Golindano</span>, a web designer + frontend web developer with 14 years of experience.</h1>
 				</div>
 			</div>
@@ -56,19 +56,19 @@
 				</div>
 				<div class="col-12">
 					<div class="row text-center">
-						<div class="col-12 col-sm-6 col-lg-3 px-4">
+						<div class="col-12 col-sm-6 col-lg-3 px-4 mb-4">
 							<div class="border service px-4 py-5 px-lg-5 h-100">
 								<h3 class="text-purple font-sb mb-4">Web Design</h3>
 								<p class="text-sm mb-0">From wireframe to completed mockup, I can bring your vision to life. </p>
 							</div> 
 						</div>
-						<div class="col-12 col-sm-6 col-lg-3 px-4">
+						<div class="col-12 col-sm-6 col-lg-3 px-4 mb-4">
 							<div class="border service px-4 py-5 px-lg-5 h-100">
 								<h3 class="text-purple font-sb mb-4">Web Development</h3>
 								<p class="text-sm mb-0">My specialty is in front-end development, so I can build your site from scratch, but I'm also proficient in WordPress.</p>
 							</div> 
 						</div>
-						<div class="col-12 col-sm-6 col-lg-3 px-4">
+						<div class="col-12 col-sm-6 col-lg-3 px-4 mb-4">
 							<div class="border service px-4 py-5 px-lg-5 h-100">
 								<h3 class="text-purple font-sb mb-4">Graphic Design</h3>
 								<p class="text-sm mb-0">Digital and print design. Anything from display ads and emails to brochures and wedding invitations.</p>
@@ -87,7 +87,7 @@
 	</section>
 	
 	<section class="py-5">
-		<div class="container" id="work">
+		<div class="container pt-lg-5" id="work">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 pb-5">
 					<h2 class="text-purple font-bd-b text-center h1 mb-4">Some of My Recent Work</h2>
@@ -96,11 +96,11 @@
 			</div>
 		</div>
 		<div class="container-fluid px-lg-5 work pb-5">
-			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
-			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
-			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
-			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
-			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid"></div>
+			<div class="project col-3 px-4"><a href="img/m_com.jpg" target="_blank"><img src="img/thumbs/m_com.jpg" class="img-fluid border"></a></div>
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid border"></div>
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid border"></div>
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid border"></div>
+			<div class="project col-3 px-4"><img src="img/thumbs/m_com.jpg" class="img-fluid border"></div>
 		</div>
 	</section>
 	
@@ -130,7 +130,35 @@
 		  infinite: true,
 		  slidesToShow: 4,
 		  slidesToScroll: 1,
-		  dots: false
+		  dots: false,
+		  responsive: [
+			{
+			  breakpoint: 1200,
+			  settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: true
+			  }
+			},
+			{
+			  breakpoint: 767,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			  }
+			},
+			{
+			  breakpoint: 580,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			  }
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		  ]
 		});
 	</script>
 </body>
