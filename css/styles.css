@@ -31,6 +31,10 @@ a { text-decoration: none; }
 .cta:hover { font-variation-settings: "ital" 1, "wdth" 100, "wght" 400; }
 .service { border: 2px solid #1f0537 !important; border-radius: 20px; }
 .contact { background: url(../img/bg.jpg) center center no-repeat; background-size: cover; }
+.slick-next, .slick-prev { top: 100%; }
+.slick-prev { left: 48%; }
+.slick-next { right: 48%; }
+.slick-prev:before, .slick-next:before { opacity: 1; color: #1f0537; }
 
 @media screen and (min-width: 992px) {
 	body { font-size: 22px; line-height: 36px; }
