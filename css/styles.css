@@ -34,7 +34,9 @@ a { text-decoration: none; }
 .slick-next, .slick-prev { top: 100%; }
 .slick-prev { left: 48%; }
 .slick-next { right: 48%; }
-.slick-prev:before, .slick-next:before { opacity: 1; color: #1f0537; }
+.slick-prev:before { opacity: 1; color: #1f0537; content: "\f053"; font-family: 'Font Awesome 5 Free'; font-weight: 700; }
+.slick-next:before { opacity: 1; color: #1f0537; content: "\f054"; font-family: 'Font Awesome 5 Free'; font-weight: 700; }
+
 
 @media screen and (min-width: 992px) {
 	body { font-size: 22px; line-height: 36px; }
