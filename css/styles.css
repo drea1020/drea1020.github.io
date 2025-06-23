@@ -20,15 +20,16 @@ a { text-decoration: none; }
 .font-l { font-weight: 300; }
 .font-sb { font-weight: 600; }
 
-.bg-purple { background-color: #120047 !important; }
+.bg-purple { background-color: #1f0537 !important; }
 .bg-blue { background-color: #DBEDF9 !important; }
-.text-purple { color: #120047 !important; }
+.text-purple { color: #1f0537 !important; }
 .text-blue { color: #84D0FF !important; }
 .text-sm { font-size: 18px !important; line-height: 26px; }
 
 .navbar-brand { max-width: 75%; }
 .navbar-brand img { max-width: 100%; }
-.service { border: 2px solid #120047 !important; border-radius: 20px; }
+.service { border: 2px solid #1f0537 !important; border-radius: 20px; }
+.contact { background: url(../img/bg.jpg) center center no-repeat; background-size: cover; }
 
 @media screen and (min-width: 992px) {
 	body { font-size: 22px; line-height: 36px; }
