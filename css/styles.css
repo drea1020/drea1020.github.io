@@ -32,8 +32,8 @@ a { text-decoration: none; }
 .service { border: 2px solid #1f0537 !important; border-radius: 20px; }
 .contact { background: url(../img/bg.jpg) center center no-repeat; background-size: cover; }
 .slick-next, .slick-prev { top: 100%; }
-.slick-prev { left: 48%; }
-.slick-next { right: 48%; }
+.slick-prev { left: 40%; }
+.slick-next { right: 40%; }
 .slick-prev:before { opacity: 1; color: #1f0537; content: "\f053"; font-family: 'Font Awesome 5 Free'; font-weight: 700; }
 .slick-next:before { opacity: 1; color: #1f0537; content: "\f054"; font-family: 'Font Awesome 5 Free'; font-weight: 700; }
 
@@ -41,6 +41,8 @@ a { text-decoration: none; }
 @media screen and (min-width: 992px) {
 	body { font-size: 22px; line-height: 36px; }
 	h1 { font-size: 62px; line-height: 74px; }
+	.slick-prev { left: 48%; }
+	.slick-next { right: 48%; }
 }
 
 @media screen and (min-width: 1400px) {
