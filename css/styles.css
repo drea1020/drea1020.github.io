@@ -35,7 +35,7 @@ a { text-decoration: none; }
 	h1 { font-size: 62px; line-height: 74px; }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1400px) {
 	h1 { font-size: 68px; line-height: 92px; }
 	h2 { font-size: 48px !important; line-height: 60px; }
 }
